@@ -22,6 +22,16 @@ class MyApp extends StatelessWidget {
                 style: TextStyle(
                     fontSize: 40,
                     color: Colors.white,
+                    fontWeight: FontWeight.bold,
+                    fontFamily: 'ConcertOne'),
+              ),
+              Text(
+                'Frontend Developer'.toUpperCase(),
+                style: TextStyle(
+                    fontSize: 20,
+                    fontFamily: 'SourceSansPro',
+                    letterSpacing: 3,
+                    color: Colors.teal.shade100,
                     fontWeight: FontWeight.bold),
               )
             ],
